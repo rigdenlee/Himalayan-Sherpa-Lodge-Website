@@ -1,0 +1,56 @@
+
+.FormContainer {
+    position: absolute;
+    width: 510px;
+    height: 160px;
+    border: 12px solid black;   
+    border-image: linear-gradient(to right, #de8f4f 0, #de8f4f 37%, transparent 37%, transparent 62%, #324753 62%, #324753 100%) 1
+}
+
+.BookForm {
+    margin-left: 51px;
+    margin-top: 50px;
+}
+.BookForm input[type=text] {
+    width: 40%;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: Verdana;
+}
+
+.Input {
+    margin-left: 33px;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: Verdana;
+}
+
+
+.BookForm input[type=button] {
+    width: 100px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 139px;
+    background: #de8f4f;
+    font-family: Verdana;
+    color: white;
+    border: 0px;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+.BookLabel {
+    font-family: Bebas neue;
+    position: absolute;
+    top: -40px;
+    left: 202px;
+    font-size: 50px;
+}
+
+.Heading {
+    position: absolute;
+    font-family:  Bebas neue;
+    font-size: 36pt;
+    color: white;
+    top: -150px;
+    background-color: transparent;
+  }
+ 
+  

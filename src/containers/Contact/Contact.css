@@ -1,0 +1,11 @@
+.Contact {
+  text-align: center;
+}
+
+.social-icon {
+display: flex;
+width: 140px;
+height: 140px;
+position: relative;
+overflow: hidden;
+}
