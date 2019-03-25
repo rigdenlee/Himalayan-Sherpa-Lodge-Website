@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './Navbar.css';
+import NavOverlap from './NavOverlap';
 
 class Navbar extends Component {
     render() {
@@ -12,8 +13,10 @@ class Navbar extends Component {
                     <li><NavLink to="/Contact">Contact</NavLink></li>
                     <li><NavLink to="/Destination">Destination</NavLink></li>
                     <li><NavLink to="/" exact>Home</NavLink></li>
-                </ul>    
+                </ul>  
+                <NavOverlap /> 
             </div>
+             
         );
     }
 }

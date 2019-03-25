@@ -10,6 +10,7 @@ class Contact extends Component {
                     <SocialIcon className={classes.Icons} url="http://facebook.com/jaketrent" />
                     <SocialIcon className={classes.Icons} url="http://instagram.com/jaketrent" />
                     <SocialIcon className={classes.Icons} url="http://twitter.com/jaketrent" />
+                   
             </div>
         );
     }
