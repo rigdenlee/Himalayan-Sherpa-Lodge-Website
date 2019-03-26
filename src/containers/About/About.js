@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classes from './About.css';
+import { Jumbotron, Button } from 'reactstrap';
 
 class About extends Component {
     state={
@@ -22,13 +23,21 @@ class About extends Component {
         }
         return(
             <div className="About">
-                <p>About</p><br />
-                <p>Gurdum, a small village in the lap of the mountains, is the palce where you were dreaming to escape this coming short holidays. Whether you have a short trek in yourmind or just a peacefully escape to nature Gurdum welcomes you to experience the beauty of the mountains in it's purest form.Within the Singalila national park Gurdum is a place where one can have ocean of clouds at their feet and smell of the green all around. Also the people of Gurdum, their simplicityand care and value to this place.  {readMore} </p> 
-
-                <button onClick={this.showMore} className={classes.myBtn}>{ this.state.show ? 'Read Less': 'Read More'}</button>
+                <Jumbotron>
+                    <h1 className="display-3">About</h1>
+                    <p className="lead">Gurdum, a small village in the lap of the mountains, is the palce where you were dreaming to escape this coming short holidays. Whether you have a short trek in yourmind or just a peacefully escape to nature Gurdum welcomes you to experience the beauty of the mountains in it's purest form.Within the Singalila national park Gurdum is a place where one can have ocean of clouds at their feet and smell of the green all around. Also the people of Gurdum, their simplicityand care and value to this place.  {readMore} </p>
+                    {/* <hr className="my-2" />
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p className="lead">
+                    <Button color="primary">Learn More</Button>
+                    </p> */}
+                     <Button color="primary" onClick={this.showMore}>{ this.state.show ? 'Read Less': 'Read More'}</Button>
+                </Jumbotron>
+               
             </div>
         );
     }
 }
 
 export default About;
+

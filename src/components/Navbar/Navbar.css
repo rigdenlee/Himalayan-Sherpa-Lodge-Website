@@ -49,11 +49,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.Navbar li a:hover {
-  background-color: none;
+  transition-property: background-color, border-radius;
+  transition-duration: 700ms;
 }
 
 .Logo {
@@ -63,4 +60,17 @@
   width: 50px;
   margin-left: 73px;
   margin-top: 17px;
+}
+
+.Navbar a:hover {
+    background-color: #de8f4f;
+    color: white;
+    border-radius: 5% 5% 5% 5%;
+    height: 50px;
+}
+
+.Navbar a:active,
+.Navbar a.active {
+  background-color: #324753;
+  border-radius: 70% 70% 50% 0%;
 }
