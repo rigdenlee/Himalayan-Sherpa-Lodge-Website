@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import classes from './Contact.css';
+import Footer from '../../components/Footer/Footer';
 
 class Contact extends Component {
     render() {
@@ -14,10 +15,13 @@ class Contact extends Component {
         }
         return(
             <div className={classes.Contact}>
-                    <SocialIcon style={style} className={classes.fb} url="http://facebook.com/jaketrent" />
-                    <SocialIcon style={style} className={classes.insta} url="http://instagram.com/jaketrent" />
-                    <SocialIcon style={style} className={classes.twi} url="http://twitter.com/jaketrent" />
-                    
+                    <div className={classes.Icons}>
+                            <SocialIcon style={style} className={classes.fb} url="http://facebook.com/jaketrent" />
+                            <SocialIcon style={style} className={classes.insta} url="http://instagram.com/jaketrent" />
+                            <SocialIcon style={style} className={classes.twi} url="http://twitter.com/jaketrent" />   
+                    </div>
+
+                <Footer />  
             </div>
         );
     }

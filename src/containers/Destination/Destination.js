@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import classes from './Destination.css';
+// import Footer from '../../components/Footer/Footer';
 
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 

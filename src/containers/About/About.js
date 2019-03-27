@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import classes from './About.css';
 import { Jumbotron, Button } from 'reactstrap';
+// import Footer from '../../components/Footer/Footer';
 
 class About extends Component {
     state={
@@ -33,7 +33,6 @@ class About extends Component {
                     </p> */}
                      <Button color="primary" onClick={this.showMore}>{ this.state.show ? 'Read Less': 'Read More'}</Button>
                 </Jumbotron>
-               
             </div>
         );
     }
